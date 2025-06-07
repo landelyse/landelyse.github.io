@@ -10,6 +10,8 @@ math: true
 mermaid: true
 ---
 
+## CleanCode
+
 ### Overview
 
 엉클 밥의 CleanCode를 일부 읽고 기억에 남은 내용을 정리했다.

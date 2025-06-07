@@ -1,12 +1,14 @@
 ---
 layout: post
 title: 클린코드에 대해
-date: 2025-06-06 17:17:38
-categories:
-  - DevNotes
+date: 2025-06-06 17:17:38 +0900
+categories: [DevNotes]
+tags: [설계철학]
+toc: true
+comments: true
+math: true
+mermaid: true
 ---
-
-## CleanCode
 
 ### Overview
 
@@ -18,14 +20,6 @@ categories:
 예측 가능하고 한 문서에 사용된 양식이 다른 소스 파일에서도 유지될 거란 믿음을 깨지 말자.
 
 함수에 대해선 전체적으로 FP의 순수함수와 SRP가 많이 떠올랐다.
-
-### TOC
-
-- 예측되는 이름
-- 주석보다 코드
-- 작고 작은 함수
-- 함수에 대한 규칙
-- 코드 컨벤션과 팀 규칙
 
 ### 이름 짓기
 

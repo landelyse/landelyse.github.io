@@ -8,6 +8,7 @@ categories:
 tags:
   - 회고
   - 부스트캠프
+description: 챌린지 주간 회고 시작!
 toc: true
 comments: true
 math: true

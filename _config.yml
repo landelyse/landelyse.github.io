@@ -217,6 +217,10 @@ exclude:
   - rollup.config.js
   - "package*.json"
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 jekyll-archives:
   enabled: [categories, tags]
   layouts:

@@ -231,10 +231,10 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-#static_files:
-#  - path: assets/img/favicons/favicon.ico
-#    name: favicon.ico
-#    destination: favicon.ico
-#  - path: assets/img/favicons/apple-touch-icon.png
-#    name: apple-touch-icon.png
-#    destination: apple-touch-icon.png
+static_files:
+  - path: assets/img/favicons/favicon.ico
+    name: favicon.ico
+    destination: favicon.ico
+  - path: assets/img/favicons/apple-touch-icon.png
+    name: apple-touch-icon.png
+    destination: apple-touch-icon.png

@@ -33,6 +33,14 @@
     font-style: normal;
 }
 
+/* GongGothicMedium 헤딩용 폰트 임포트 */
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @for $i from 1 through 5 {
   h#{$i} {
     @extend %heading;
@@ -67,45 +75,45 @@
 
 /* 헤딩별 색상 및 폰트 적용 */
 h1 {
-  font-family: 'GabiaMaeumgyeol', sans-serif !important;
-  color: #2A3A2B !important;
-  font-weight: bold !important;
-  font-size: 2.2rem !important; /* 기본보다 약간 크게 */
+  font-family: 'GongGothicMedium', sans-serif !important;
+  color: #000000 !important;
+  font-weight: normal !important;
+  font-size: 2.0rem !important;
 }
 
 h2 {
-  font-family: 'GabiaMaeumgyeol', sans-serif !important;
-  color: #ff8c1a !important;
-  font-weight: bold !important;
-  font-size: 1.9rem !important; /* 기본보다 약간 크게 */
+  font-family: 'GongGothicMedium', sans-serif !important;
+  color: #000000 !important;
+  font-weight: normal !important;
+  font-size: 1.7rem !important;
 }
 
 h3 {
-  font-family: 'GabiaMaeumgyeol', sans-serif !important;
-  color: #3F6A3D !important;
-  font-weight: bold !important;
-  font-size: 1.6rem !important; /* 기본보다 약간 크게 */
+  font-family: 'GongGothicMedium', sans-serif !important;
+  color: #000000 !important;
+  font-weight: normal !important;
+  font-size: 1.4rem !important;
 }
 
 h4 {
-  font-family: 'GabiaMaeumgyeol', sans-serif !important;
-  color: #2f3f8b !important;
-  font-weight: bold !important;
-  font-size: 1.35rem !important; /* 기본보다 약간 크게 */
+  font-family: 'GongGothicMedium', sans-serif !important;
+  color: #000000 !important;
+  font-weight: normal !important;
+  font-size: 1.2rem !important;
 }
 
 h5 {
-  font-family: 'GabiaMaeumgyeol', sans-serif !important;
-  color: #8b2f5a !important;
-  font-weight: bold !important;
-  font-size: 1.2rem !important; /* 기본보다 약간 크게 */
+  font-family: 'GongGothicMedium', sans-serif !important;
+  color: #000000 !important;
+  font-weight: normal !important;
+  font-size: 1.1rem !important;
 }
 
 h6 {
-  font-family: 'GabiaMaeumgyeol', sans-serif !important;
-  color: #cc5500 !important;
-  font-weight: bold !important;
-  font-size: 1.1rem !important; /* 기본보다 약간 크게 */
+  font-family: 'GongGothicMedium', sans-serif !important;
+  color: #000000 !important;
+  font-weight: normal !important;
+  font-size: 1.0rem !important;
 }
 
 a {
@@ -302,60 +310,60 @@ main {
 
     /* 포스트 콘텐츠 내 헤딩 스타일 */
     h1 {
-      font-family: 'GabiaMaeumgyeol', sans-serif !important;
-      color: #2A3A2B !important;
-      font-weight: bold !important;
-      font-size: 2.2rem !important;
+      font-family: 'GongGothicMedium', sans-serif !important;
+      color: #000000 !important;
+      font-weight: normal !important;
+      font-size: 2.0rem !important;
       background: none;
       margin: 2.5rem 0 1.5rem;
       padding: 0;
     }
 
     h2 {
-      font-family: 'GabiaMaeumgyeol', sans-serif !important;
-      color: #ff8c1a !important;
-      font-weight: bold !important;
-      font-size: 1.9rem !important;
+      font-family: 'GongGothicMedium', sans-serif !important;
+      color: #000000 !important;
+      font-weight: normal !important;
+      font-size: 1.7rem !important;
       background: none;
       margin: 2.5rem 0 1.25rem;
       padding: 0;
     }
 
     h3 {
-      font-family: 'GabiaMaeumgyeol', sans-serif !important;
-      color: #3F6A3D !important;
-      font-weight: bold !important;
-      font-size: 1.6rem !important;
+      font-family: 'GongGothicMedium', sans-serif !important;
+      color: #000000 !important;
+      font-weight: normal !important;
+      font-size: 1.4rem !important;
       background: none;
       margin: 2rem 0 1rem;
       padding: 0;
     }
 
     h4 {
-      font-family: 'GabiaMaeumgyeol', sans-serif !important;
-      color: #2f3f8b !important;
-      font-weight: bold !important;
-      font-size: 1.35rem !important;
-      background: none;
-      margin: 2rem 0 1rem;
-      padding: 0;
-    }
-
-    h5 {
-      font-family: 'GabiaMaeumgyeol', sans-serif !important;
-      color: #8b2f5a !important;
-      font-weight: bold !important;
+      font-family: 'GongGothicMedium', sans-serif !important;
+      color: #000000 !important;
+      font-weight: normal !important;
       font-size: 1.2rem !important;
       background: none;
       margin: 2rem 0 1rem;
       padding: 0;
     }
 
-    h6 {
-      font-family: 'GabiaMaeumgyeol', sans-serif !important;
-      color: #cc5500 !important;
-      font-weight: bold !important;
+    h5 {
+      font-family: 'GongGothicMedium', sans-serif !important;
+      color: #000000 !important;
+      font-weight: normal !important;
       font-size: 1.1rem !important;
+      background: none;
+      margin: 2rem 0 1rem;
+      padding: 0;
+    }
+
+    h6 {
+      font-family: 'GongGothicMedium', sans-serif !important;
+      color: #000000 !important;
+      font-weight: normal !important;
+      font-size: 1.0rem !important;
       background: none;
       margin: 2rem 0 1rem;
       padding: 0;
@@ -373,21 +381,6 @@ article.px-1 .content {
     line-height: 1.8;
     letter-spacing: 0.02em;
   }
-
-  /* About 페이지 헤딩도 포스트와 동일하게 */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'GabiaMaeumgyeol', sans-serif !important;
-    font-weight: bold !important;
-    background: none;
-    padding: 0;
-  }
-
-  h1 { color: #000000 !important; font-size: 2.2rem !important; margin: 2.5rem 0 1.5rem; }
-  h2 { color: #000000 !important; font-size: 1.9rem !important; margin: 2.5rem 0 1.25rem; }
-  h3 { color: #000000 !important; font-size: 1.6rem !important; margin: 2rem 0 1rem; }
-  h4 { color: #000000 !important; font-size: 1.35rem !important; margin: 2rem 0 1rem; }
-  h5 { color: #000000 !important; font-size: 1.2rem !important; margin: 2rem 0 1rem; }
-  h6 { color: #000000 !important; font-size: 1.1rem !important; margin: 2rem 0 1rem; }
 }
 
   @include bp.lte(bp.get(sm)) {

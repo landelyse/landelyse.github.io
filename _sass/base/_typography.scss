@@ -3,6 +3,13 @@
 @use '../abstracts/mixins' as mx;
 @use '../abstracts/placeholders';
 
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @for $i from 1 through 5 {
   h#{$i} {
     @extend %heading;

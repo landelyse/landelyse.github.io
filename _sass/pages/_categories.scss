@@ -9,6 +9,25 @@
   margin-bottom: 2rem;
   border-color: var(--categories-border);
 
+  /* Category link styling */
+  a.mx-2 {
+    color: #242424 !important;
+    text-decoration: none;
+
+    &:hover {
+      color: #838B52 !important;
+    }
+
+    /* Dark mode */
+    [data-mode='dark'] & {
+      color: #D0D0D0 !important;
+
+      &:hover {
+        color: #838B52 !important;
+      }
+    }
+  }
+
   &.card,
   .list-group {
     @extend %rounded;
@@ -39,7 +58,7 @@
   .fa-angle-right,
   .fa-angle-down {
     font-style: normal;
-    color: #558B2F;
+    color: #838B52;
   }
 
   .list-group-item {

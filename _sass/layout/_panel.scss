@@ -48,6 +48,22 @@
     &:hover {
       transition: all 0.3s ease-in;
     }
+
+    /* TrendingTags specific hover color override */
+    &.btn-outline-primary {
+      &:not(.disabled):hover {
+        background-color: #838B52 !important;
+        border-color: #838B52 !important;
+        color: white !important;
+      }
+
+      /* Dark mode */
+      [data-mode='dark'] &:not(.disabled):hover {
+        background-color: #838B52 !important;
+        border-color: #838B52 !important;
+        color: white !important;
+      }
+    }
   }
 
   > :last-child {

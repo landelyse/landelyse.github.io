@@ -16,5 +16,5 @@ order: 4
 
 ## Skills
 
-[![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)]()
-[![Xcode](https://img.shields.io/badge/Xcode-1C1E22?style=for-the-badge&logo=xcode&logoColor=white)]()
+[![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org)
+[![Xcode](https://img.shields.io/badge/Xcode-1C1E22?style=for-the-badge&logo=xcode&logoColor=white)](https://developer.apple.com/xcode/)

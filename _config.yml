@@ -126,7 +126,7 @@ comments:
     category_id: DIC_kwDOPdMnY84CuH7n
     mapping: pathname
     strict: 0
-    input_position: top
+    input_position: bottom
     lang: ko
     reactions_enabled: 1
 

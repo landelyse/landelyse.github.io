@@ -162,9 +162,10 @@ sup {
 }
 
 main {
-  line-height: 1.75;
+  line-height: 1.8; /* 180% 행간 */
   font-family: 'IBMPlexSansKR-Regular', serif;
   font-weight: 400;
+  letter-spacing: 0.02em; /* 자간 조절 */
 
   /* 강조 (굵은 글씨) 처리 */
   strong,
@@ -199,10 +200,44 @@ main {
   .content {
     font-family: 'IBMPlexSansKR-Regular', serif;
     font-weight: 400;
+    line-height: 1.8; /* 180% 행간 */
+    letter-spacing: 0.02em; /* 자간 조절 */
+
+    /* 문단 간격 조정 */
+    p {
+      line-height: 1.8;
+      letter-spacing: 0.02em;
+      margin-bottom: 1.2em;
+    }
+
+    /* 리스트 항목 행간 */
+    li {
+      line-height: 1.8;
+      letter-spacing: 0.02em;
+    }
 
     strong,
     b {
       font-weight: 700;
+    }
+
+    /* 코드 블록 행간 축소 */
+    pre,
+    .highlight,
+    .highlighter-rouge {
+      line-height: 1.4 !important;
+      letter-spacing: normal;
+      
+      code {
+        line-height: 1.4 !important;
+        letter-spacing: normal;
+      }
+    }
+
+    /* 인라인 코드 */
+    code:not([class]) {
+      line-height: inherit;
+      letter-spacing: normal;
     }
   }
 

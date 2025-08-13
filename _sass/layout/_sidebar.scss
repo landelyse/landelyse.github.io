@@ -180,6 +180,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   }
 
   .sidebar-bottom {
+    justify-content: center; /* Center the icons */
     padding-left: 2rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;

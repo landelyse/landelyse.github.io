@@ -15,7 +15,9 @@
   > section {
     @extend %panel-border;
 
-    padding-left: 1rem;
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.03);
+    border-radius: 8px;
 
     &:not(:first-child) {
       margin-top: 4rem;
@@ -58,13 +60,23 @@
 }
 
 #access-lastmod {
+  font-family: 'SUITE-Regular', sans-serif !important;
+  font-weight: 400;
+  
   a {
     color: inherit;
+    font-family: 'SUITE-Regular', sans-serif !important;
+    font-weight: 400 !important;
 
     &:hover {
       @extend %link-hover;
     }
 
     @extend %no-bottom-border;
+  }
+  
+  li {
+    font-family: 'SUITE-Regular', sans-serif !important;
+    font-weight: 400 !important;
   }
 }

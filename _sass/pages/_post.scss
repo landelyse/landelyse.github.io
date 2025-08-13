@@ -263,6 +263,9 @@ header {
   max-height: 100vh;
   scrollbar-width: none;
   margin-top: 2rem;
+  padding: 1rem;
+  background-color: rgba(128, 128, 128, 0.03);
+  border-radius: 8px;
 
   &:not(.invisible) {
     -webkit-animation: fade-up 0.8s;
@@ -300,7 +303,9 @@ header {
 
     .is-active-link {
       color: var(--toc-highlight) !important;
-      font-weight: 600;
+      font-family: 'SUITE-Regular', sans-serif !important;
+      font-weight: 600 !important;
+      font-size: 1.05em !important;
 
       &::before {
         display: inline-block;

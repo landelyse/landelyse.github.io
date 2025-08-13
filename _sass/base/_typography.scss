@@ -25,10 +25,42 @@
     font-style: normal;
 }
 
+/* SUITE-SemiBold 폰트 임포트 */
+@font-face {
+    font-family: 'SUITE-SemiBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-SemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* SUITE-Bold 폰트 임포트 */
+@font-face {
+    font-family: 'SUITE-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* SUITE-Regular 폰트 임포트 */
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* GowunDodum-Regular 인터페이스 폰트 임포트 */
 @font-face {
     font-family: 'GowunDodum-Regular';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* SUITE 폰트 임포트 */
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -252,6 +284,32 @@ i {
   &.fas {
     @extend %no-cursor;
   }
+  
+  &.fa-hashtag {
+    color: #838B52 !important;
+  }
+}
+
+/* Anchor 링크 색상 강제 적용 */
+.anchor {
+  color: #838B52 !important;
+}
+
+a.anchor {
+  color: #838B52 !important;
+  
+  &:hover {
+    color: #838B52 !important;
+  }
+  
+  &.text-muted {
+    color: #838B52 !important;
+  }
+}
+
+/* text-muted가 있는 anchor도 올리브 그린으로 */
+.text-muted.anchor {
+  color: #838B52 !important;
 }
 
 sup {
@@ -486,13 +544,13 @@ article.px-1 .content {
 /* 우측 패널 인터페이스 폰트 설정 */
 #toc-wrapper,
 #panel-wrapper {
-  font-family: 'GowunDodum-Regular', sans-serif !important;
+  font-family: 'SUITE-Regular', sans-serif !important;
   font-weight: 400;
   
   /* TOC 내부 헤딩은 인터페이스 폰트 사용 */
   h1, h2, h3, h4, h5, h6,
   .toc-link {
-    font-family: 'GowunDodum-Regular', sans-serif !important;
+    font-family: 'SUITE-Regular', sans-serif !important;
     color: var(--text-color) !important;
     font-weight: 400 !important;
     font-size: inherit !important;

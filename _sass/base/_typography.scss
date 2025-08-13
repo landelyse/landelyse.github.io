@@ -76,42 +76,42 @@
 /* 헤딩별 색상 및 폰트 적용 */
 h1 {
   font-family: 'GongGothicMedium', sans-serif !important;
-  color: #000000 !important;
+  color: var(--content-heading-color) !important;
   font-weight: normal !important;
   font-size: 2.0rem !important;
 }
 
 h2 {
   font-family: 'GongGothicMedium', sans-serif !important;
-  color: #000000 !important;
+  color: var(--content-heading-color) !important;
   font-weight: normal !important;
   font-size: 1.7rem !important;
 }
 
 h3 {
   font-family: 'GongGothicMedium', sans-serif !important;
-  color: #000000 !important;
+  color: var(--content-heading-color) !important;
   font-weight: normal !important;
   font-size: 1.4rem !important;
 }
 
 h4 {
   font-family: 'GongGothicMedium', sans-serif !important;
-  color: #000000 !important;
+  color: var(--content-heading-color) !important;
   font-weight: normal !important;
   font-size: 1.2rem !important;
 }
 
 h5 {
   font-family: 'GongGothicMedium', sans-serif !important;
-  color: #000000 !important;
+  color: var(--content-heading-color) !important;
   font-weight: normal !important;
   font-size: 1.1rem !important;
 }
 
 h6 {
   font-family: 'GongGothicMedium', sans-serif !important;
-  color: #000000 !important;
+  color: var(--content-heading-color) !important;
   font-weight: normal !important;
   font-size: 1.0rem !important;
 }
@@ -137,10 +137,23 @@ img {
 }
 
 blockquote {
-  border-left: 0.125rem solid var(--blockquote-border-color);
-  padding-left: 1rem;
+  border-left: 0.25rem solid var(--blockquote-border-color);
+  padding: 0 1rem;
+  margin: 0.75rem 0;
+  background-color: var(--blockquote-bg-color);
   color: var(--blockquote-text-color);
-  margin-top: 0.5rem;
+  font-style: italic;
+  position: relative;
+
+  /* blockquote 내부 요소들 색상 */
+  p, em, i, strong, b {
+    color: var(--blockquote-text-color) !important;
+  }
+
+
+  > p:first-child {
+    margin-top: 0;
+  }
 
   > p:last-child {
     margin-bottom: 0;
@@ -188,8 +201,13 @@ kbd {
 }
 
 hr {
-  border-color: var(--main-border-color);
-  opacity: 1;
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(68, 68, 68, 0.3), rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0.3));
+  margin: 2rem 0;
+  border-radius: 1px;
+  box-shadow: 0 1px 2px rgba(68, 68, 68, 0.15);
+  opacity: 0.7;
 }
 
 footer {
@@ -270,23 +288,43 @@ main {
     font-weight: 400;
     line-height: 1.8; /* 180% 행간 */
     letter-spacing: 0.02em; /* 자간 조절 */
+    color: var(--content-text-color); /* 기본 텍스트 색상 */
 
     /* 문단 간격 조정 */
     p {
       line-height: 1.8;
       letter-spacing: 0.02em;
       margin-bottom: 1.2em;
+      color: var(--content-text-color);
     }
 
     /* 리스트 항목 행간 */
     li {
       line-height: 1.8;
       letter-spacing: 0.02em;
+      color: var(--content-text-color);
     }
 
+    /* 볼드체 색상 */
     strong,
     b {
       font-weight: 700;
+      color: var(--content-bold-color);
+    }
+
+    /* 이탤릭 색상 */
+    em,
+    i {
+      color: var(--content-italic-color);
+      font-style: italic;
+    }
+
+    /* 하이라이트 (마크) 색상 */
+    mark {
+      background-color: var(--content-highlight-bg);
+      color: var(--content-text-color);
+      padding: 0.1em 0.2em;
+      border-radius: 0.2em;
     }
 
     /* 코드 블록 행간 축소 */
@@ -311,7 +349,7 @@ main {
     /* 포스트 콘텐츠 내 헤딩 스타일 */
     h1 {
       font-family: 'GongGothicMedium', sans-serif !important;
-      color: #000000 !important;
+      color: var(--content-heading-color) !important;
       font-weight: normal !important;
       font-size: 2.0rem !important;
       background: none;
@@ -321,7 +359,7 @@ main {
 
     h2 {
       font-family: 'GongGothicMedium', sans-serif !important;
-      color: #000000 !important;
+      color: var(--content-heading-color) !important;
       font-weight: normal !important;
       font-size: 1.7rem !important;
       background: none;
@@ -331,7 +369,7 @@ main {
 
     h3 {
       font-family: 'GongGothicMedium', sans-serif !important;
-      color: #000000 !important;
+      color: var(--content-heading-color) !important;
       font-weight: normal !important;
       font-size: 1.4rem !important;
       background: none;
@@ -341,7 +379,7 @@ main {
 
     h4 {
       font-family: 'GongGothicMedium', sans-serif !important;
-      color: #000000 !important;
+      color: var(--content-heading-color) !important;
       font-weight: normal !important;
       font-size: 1.2rem !important;
       background: none;
@@ -351,7 +389,7 @@ main {
 
     h5 {
       font-family: 'GongGothicMedium', sans-serif !important;
-      color: #000000 !important;
+      color: var(--content-heading-color) !important;
       font-weight: normal !important;
       font-size: 1.1rem !important;
       background: none;
@@ -361,7 +399,7 @@ main {
 
     h6 {
       font-family: 'GongGothicMedium', sans-serif !important;
-      color: #000000 !important;
+      color: var(--content-heading-color) !important;
       font-weight: normal !important;
       font-size: 1.0rem !important;
       background: none;

@@ -10,9 +10,18 @@
   --text-muted-highlight-color: inherit;
   --heading-color: #2a2a2a;
   --label-color: #585858;
-  --blockquote-border-color: #eeeeee;
-  --blockquote-text-color: #757575;
-  --link-color: #468FCC;
+  --blockquote-border-color: #838B52;
+  --blockquote-text-color: #000000;
+  --blockquote-bg-color: rgba(131, 139, 82, 0.05);
+  
+  /* Custom content colors for light mode */
+  --content-text-color: #2E3338;
+  --content-bold-color: #D65063;
+  --content-italic-color: #468FCC;
+  --content-highlight-bg: #FFF5CC;
+  --content-heading-color: #000000;
+  --link-color: #838B52;
+  --link-hover-color: #C97E49;
   --link-underline-color: #dee2e6;
   --button-bg: #ffffff;
   --btn-border-color: #e9ecef;

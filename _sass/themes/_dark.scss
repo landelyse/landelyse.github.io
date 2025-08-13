@@ -12,9 +12,18 @@
   --text-muted-highlight-color: #aeaeae;
   --heading-color: #cccccc;
   --label-color: #a7a7a7;
-  --blockquote-border-color: rgb(66, 66, 66);
-  --blockquote-text-color: #868686;
-  --link-color: #468FCC;
+  --blockquote-border-color: #838B52;
+  --blockquote-text-color: #FFFFFF;
+  --blockquote-bg-color: rgba(131, 139, 82, 0.1);
+  
+  /* Custom content colors for dark mode */
+  --content-text-color: #E8E8E8;
+  --content-bold-color: #FF7A93;
+  --content-italic-color: #7AB8F0;
+  --content-highlight-bg: #4A4A2A;
+  --content-heading-color: #FFFFFF;
+  --link-color: #838B52;
+  --link-hover-color: #C97E49;
   --link-underline-color: rgb(82, 108, 150);
   --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;

@@ -164,6 +164,10 @@ header {
     }
 
     &:hover {
+      background-color: #838B52 !important;
+      border-color: #838B52 !important;
+      color: white !important;
+      
       &:not(.disabled)::before {
         color: whitesmoke;
       }

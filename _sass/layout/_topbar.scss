@@ -6,6 +6,7 @@
 #topbar-wrapper {
   height: v.$topbar-height;
   background-color: var(--topbar-bg);
+  font-family: 'GowunDodum-Regular', sans-serif;
 
   @include bp.lt(bp.get(lg)) {
     @include mx.slide(top 0.2s ease);
@@ -61,7 +62,7 @@
   display: none;
   font-size: 1.1rem;
   font-weight: 600;
-  font-family: sans-serif;
+  font-family: 'GowunDodum-Regular', sans-serif;
   color: var(--topbar-text-color);
   text-align: center;
   width: 70%;

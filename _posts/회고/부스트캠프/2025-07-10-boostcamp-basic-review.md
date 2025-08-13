@@ -8,6 +8,7 @@ categories:
 tags:
   - 회고
   - 부스트캠프
+description: 네이버 부스트 캠프 베이직에 도전!
 toc: true
 comments: true
 math: true

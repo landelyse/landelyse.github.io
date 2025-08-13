@@ -290,6 +290,17 @@ main {
     letter-spacing: 0.02em; /* 자간 조절 */
     color: var(--content-text-color); /* 기본 텍스트 색상 */
 
+    /* 텍스트 선택 시 하이라이트 색상 */
+    ::selection {
+      background-color: rgba(131, 139, 82, 0.3);
+      color: var(--content-text-color);
+    }
+
+    ::-moz-selection {
+      background-color: rgba(131, 139, 82, 0.3);
+      color: var(--content-text-color);
+    }
+
     /* 문단 간격 조정 */
     p {
       line-height: 1.8;

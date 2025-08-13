@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://landelyse.github.io/sitemap.xml

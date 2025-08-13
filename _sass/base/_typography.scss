@@ -6,7 +6,14 @@
 @font-face {
     font-family: 'IBMPlexSansKR-Regular';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Medium.woff') format('woff');
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -156,6 +163,14 @@ sup {
 
 main {
   line-height: 1.75;
+  font-family: 'IBMPlexSansKR-Regular', serif;
+  font-weight: 400;
+
+  /* 강조 (굵은 글씨) 처리 */
+  strong,
+  b {
+    font-weight: 700;
+  }
 
   h1 {
     margin-top: 2rem;
@@ -178,6 +193,16 @@ main {
   #archives {
     a:not(:hover) {
       @extend %no-bottom-border;
+    }
+  }
+
+  .content {
+    font-family: 'IBMPlexSansKR-Regular', serif;
+    font-weight: 400;
+
+    strong,
+    b {
+      font-weight: 700;
     }
   }
 

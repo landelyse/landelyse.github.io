@@ -73,6 +73,17 @@
   }
 }
 
+/* 전역 텍스트 선택 시 하이라이트 색상 */
+::selection {
+  background-color: rgba(131, 139, 82, 0.3);
+  color: inherit;
+}
+
+::-moz-selection {
+  background-color: rgba(131, 139, 82, 0.3);
+  color: inherit;
+}
+
 /* 헤딩별 색상 및 폰트 적용 */
 h1 {
   font-family: 'GongGothicMedium', sans-serif !important;
@@ -289,17 +300,6 @@ main {
     line-height: 1.8; /* 180% 행간 */
     letter-spacing: 0.02em; /* 자간 조절 */
     color: var(--content-text-color); /* 기본 텍스트 색상 */
-
-    /* 텍스트 선택 시 하이라이트 색상 */
-    ::selection {
-      background-color: rgba(131, 139, 82, 0.3);
-      color: var(--content-text-color);
-    }
-
-    ::-moz-selection {
-      background-color: rgba(131, 139, 82, 0.3);
-      color: var(--content-text-color);
-    }
 
     /* 문단 간격 조정 */
     p {

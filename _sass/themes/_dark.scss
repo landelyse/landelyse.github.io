@@ -309,4 +309,16 @@
   .highlight .ss {
     color: #90a959;
   }
+
+  /* Custom HR styles for dark mode */
+  hr {
+    &::before {
+      background: var(--main-border-color);
+    }
+
+    &::after {
+      background: var(--main-bg);
+      color: var(--text-color);
+    }
+  }
 }

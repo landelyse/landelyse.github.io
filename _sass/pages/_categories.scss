@@ -33,6 +33,15 @@
     font-size: 86%; /* fontawesome icons */
   }
 
+  /* Override default italic style for category icons and set custom color */
+  .fa-folder-open,
+  .fa-folder,
+  .fa-angle-right,
+  .fa-angle-down {
+    font-style: normal;
+    color: #558B2F;
+  }
+
   .list-group-item {
     border-left: none;
     border-right: none;

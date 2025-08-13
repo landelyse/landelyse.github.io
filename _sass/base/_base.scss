@@ -343,10 +343,23 @@ main {
 
 /* Overwrite bootstrap outline button */
 .btn.btn-outline-primary {
+  color: #242424;
+  
   &:not(.disabled):hover {
-    background-color: #838B52 !important;
-    border-color: #838B52 !important;
-    color: white !important;
+    background-color: #F7F7F7 !important;
+    border-color: #F7F7F7 !important;
+    color: #5D5D5D !important;
+  }
+}
+
+/* Dark mode overrides */
+[data-mode='dark'] .btn.btn-outline-primary {
+  color: white;
+  
+  &:not(.disabled):hover {
+    background-color: #292A2B !important;
+    border-color: #292A2B !important;
+    color: #CED0D1 !important;
   }
 }
 

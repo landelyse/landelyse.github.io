@@ -160,16 +160,33 @@ header {
     @extend %-btn-post-nav;
 
     &:not(:hover) {
-      color: var(--link-color);
+      color: #242424;
     }
 
     &:hover {
-      background-color: #838B52 !important;
-      border-color: #838B52 !important;
-      color: white !important;
+      background-color: #F7F7F7 !important;
+      border-color: #F7F7F7 !important;
+      color: #5D5D5D !important;
       
       &:not(.disabled)::before {
-        color: whitesmoke;
+        color: #5D5D5D;
+      }
+    }
+
+    /* Dark mode styles */
+    [data-mode='dark'] & {
+      &:not(:hover) {
+        color: white;
+      }
+
+      &:hover {
+        background-color: #292A2B !important;
+        border-color: #292A2B !important;
+        color: #CED0D1 !important;
+        
+        &:not(.disabled)::before {
+          color: #CED0D1;
+        }
       }
     }
 

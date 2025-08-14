@@ -6,7 +6,7 @@
   font-family: 'GowunDodum-Regular', sans-serif;
 }
 
-.tag {
+a.tag {
   border-radius: 0.7em;
   padding: 6px 8px 7px;
   margin-right: 0.8rem;
@@ -14,11 +14,27 @@
   letter-spacing: 0;
   border: 1px solid var(--tag-border) !important;
   box-shadow: 0 0 3px 0 var(--tag-shadow);
+  color: #242424 !important;
+  text-decoration: none !important;
 
   span {
     margin-left: 0.6em;
     font-size: 0.7em;
     font-family: 'GowunDodum-Regular', sans-serif;
+  }
+}
+
+a.tag:hover,
+a.tag:hover:visited,
+a.tag:hover:link {
+  background: #838B52 !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease;
+  border-color: #838B52 !important;
+  text-decoration: none !important;
+
+  span {
+    color: #ffffff !important;
   }
 }
 

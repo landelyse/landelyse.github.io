@@ -35,6 +35,14 @@
       @extend %no-bottom-border;
 
       font-size: 1.1rem;
+      color: #2E3339 !important;
+      text-decoration: none !important;
+      font-weight: normal !important;
+
+      &:hover {
+        color: #838B52 !important;
+        border-bottom: 1px solid #838B52 !important;
+      }
 
       @include bp.lt(bp.get(sm)) {
         @include mx.text-ellipsis;

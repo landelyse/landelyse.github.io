@@ -3,7 +3,7 @@
 /* Tags 페이지 인터페이스 폰트 적용 */
 #tags,
 .tag {
-  font-family: 'GowunDodum-Regular', sans-serif;
+  font-family: 'IBMPlexSansKR-Regular', sans-serif;
 }
 
 a.tag {
@@ -16,6 +16,7 @@ a.tag {
   box-shadow: 0 0 3px 0 var(--tag-shadow);
   color: #2E3339 !important;
   text-decoration: none !important;
+  font-weight: normal !important;
 
   span {
     margin-left: 0.6em;

@@ -11,21 +11,18 @@
 
   /* Category link styling */
   a.mx-2 {
-    color: #2E3339 !important;
     text-decoration: none;
     font-weight: normal !important;
+    
+    // 라이트 모드와 다크 모드 색상 지원
+    color: #2E3339 !important;
+    
+    [data-mode="dark"] & {
+      color: #e9ecef !important;
+    }
 
     &:hover {
       color: #838B52 !important;
-    }
-
-    /* Dark mode */
-    [data-mode='dark'] & {
-      color: #D0D0D0 !important;
-
-      &:hover {
-        color: #838B52 !important;
-      }
     }
   }
 

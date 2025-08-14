@@ -14,10 +14,16 @@ a.tag {
   letter-spacing: 0;
   border: 1px solid var(--tag-border) !important;
   box-shadow: 0 0 3px 0 var(--tag-shadow);
-  color: #2E3339 !important;
   text-decoration: none !important;
   font-weight: normal !important;
   font-size: 0.9rem;
+  
+  // 라이트 모드와 다크 모드 색상 지원
+  color: #2E3339 !important;
+  
+  [data-mode="dark"] & {
+    color: #e9ecef !important;
+  }
 
   span {
     margin-left: 0.6em;

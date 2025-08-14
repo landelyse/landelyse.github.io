@@ -281,7 +281,7 @@ header {
   scrollbar-width: none;
   margin-top: 2rem;
   padding: 1rem;
-  background-color: rgba(128, 128, 128, 0.03);
+  background: transparent;
   border-radius: 8px;
 
   &:not(.invisible) {

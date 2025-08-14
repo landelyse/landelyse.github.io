@@ -13,10 +13,8 @@
   }
 
   > section {
-    @extend %panel-border;
-
     padding: 1rem;
-    background-color: rgba(128, 128, 128, 0.03);
+    background: transparent;
     border-radius: 8px;
 
     &:not(:first-child) {

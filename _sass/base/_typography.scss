@@ -245,32 +245,8 @@ kbd {
 
 hr {
   border: none;
-  height: 1em;
-  position: relative;
-  text-align: center;
-
-  &::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    height: 2px;
-    background: #ccc;
-    transform: translateY(-50%);
-  }
-
-  &::after {
-    content: "\F8FF"; /* 애플 로고 */
-    font-family: 'Apple Color Emoji', 'Helvetica Neue', sans-serif;
-    position: relative;
-    display: inline-block;
-    background: white;
-    padding: 0 4px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #000;
-  }
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
 }
 
 footer {
@@ -454,8 +430,32 @@ main {
       background: none;
       margin: 2.5rem 0 1.25rem;
       padding: 0;
-      border-bottom: 1px solid #ccc;
       padding-bottom: 0.5em;
+      position: relative;
+      text-align: left;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background: #ccc;
+      }
+
+      &::after {
+        content: "\F8FF"; /* 애플 로고 */
+        font-family: 'Apple Color Emoji', 'Helvetica Neue', sans-serif;
+        position: absolute;
+        left: 3em;
+        bottom: -8px;
+        display: inline-block;
+        background: white;
+        padding: 0 4px;
+        color: #999;
+        font-size: 1rem;
+      }
     }
 
     h3 {

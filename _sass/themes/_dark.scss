@@ -321,4 +321,22 @@
       color: var(--text-color);
     }
   }
+
+  /* Custom H2 styles for dark mode */
+  .main-wrapper .main .container .content h2 {
+    &::before {
+      background: var(--main-border-color) !important;
+    }
+
+    &::after {
+      background: var(--main-bg) !important;
+      color: #666 !important;
+    }
+  }
+  
+  /* Additional specific selector for h2 after element */
+  h2::after {
+    background: var(--main-bg) !important;
+    color: #666 !important;
+  }
 }

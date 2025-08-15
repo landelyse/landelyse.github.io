@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'IBMPlexSansKR-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Medium.woff') format('woff');
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-SemiBold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
@@ -398,6 +398,7 @@ main {
       color: var(--content-text-color);
       padding: 0.1em 0.2em;
       border-radius: 0.2em;
+      font-weight: var(--content-highlight-font-weight);
     }
 
     /* 코드 블록 행간 축소 */

@@ -7,7 +7,7 @@ categories:
   - 부스트캠프
 tags:
   - 부스트캠프
-  - "#문제해결력"
+  - 문제해결력
 description: 네이버 부스트 캠프 베이직에 도전!
 toc: true
 comments: true

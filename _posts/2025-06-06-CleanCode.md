@@ -2,8 +2,11 @@
 layout: post
 title: 클린코드에 대해
 date: 2025-06-06 17:17:38 +0900
-categories: [DevNotes]
-tags: [설계철학]
+categories:
+  - DevNotes
+tags:
+  - 설계철학
+  - 독서
 description: 클린코드를 읽고...
 toc: true
 comments: true

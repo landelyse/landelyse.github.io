@@ -6,8 +6,10 @@ categories:
   - 회고
   - 부스트캠프
 tags:
-  - 회고
-  - 부스트캠프
+  - "#부스트캠프"
+  - 문제해결력
+  - 메타인지
+  - DAKI
 description: 챌린지 주간 회고 시작!
 toc: true
 comments: true

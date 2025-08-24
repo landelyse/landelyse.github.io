@@ -12,6 +12,7 @@ toc: true
 comments: true
 math: true
 mermaid: true
+image: https://velog.velcdn.com/images/landelyse/post/733d3cb6-8dca-419d-8f2b-0151ffb4f525/image.png
 ---
 
 ## 네이버 부스트 캠프 베이직 후기

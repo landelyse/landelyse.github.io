@@ -14,6 +14,7 @@ toc: true
 comments: true
 math: true
 mermaid: true
+image:
 ---
 
 ![](https://velog.velcdn.com/images/landelyse/post/4e46d699-f4c9-4724-993c-1129998cca47/image.png)

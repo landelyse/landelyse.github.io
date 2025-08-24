@@ -38,6 +38,7 @@ script_includes:
         </span>
       {% endif %}
 
+      {% comment %}
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
         {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
@@ -54,6 +55,7 @@ script_includes:
           {%- endif -%}
         </div>
       {% endif %}
+      {% endcomment %}
 
       <div class="d-flex justify-content-between">
         <!-- author(s) -->
